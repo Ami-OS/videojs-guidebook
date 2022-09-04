@@ -1,0 +1,2 @@
+- **Plugins**
+  - [Thumbnails](./plugins/thumbnails.md)
