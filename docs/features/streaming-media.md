@@ -5,7 +5,7 @@
 ```js
 const player = videojs('my-video', {
     html5: {
-    nativeCaptions: false,
+    // nativeCaptions: false,
     hls: {
         overrideNative: true
     },
@@ -13,6 +13,8 @@ const player = videojs('my-video', {
     nativeVideoTracks: false
 }});
 ```
+
+The `nativeCaptions: false` will disable native caption feature, and this will make the subtitle not work in IOS.
 
 ## DVR
 
